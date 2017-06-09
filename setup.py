@@ -1,7 +1,5 @@
 from distutils.core import setup
 import py2exe
-import sys
-import re
 
 setup(name="Hola mundo",
       version="0.1",
