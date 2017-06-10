@@ -10,6 +10,6 @@ setup(name="Hola mundo",
       license="GPL",
       scripts=['./src/hello/hello.py'],
       console=['./src/hello/hello.py'],
-      #options={"py2exe": {"bundle_files": 1}},
-      #zipfile=None
+      options={"py2exe": {"bundle_files": 1}},
+      zipfile=None
     )
